@@ -1,5 +1,5 @@
 config.py
-pictures/timezonesmap.jpg
+/pictures
 /__pycache__
 /venv
 /.idea
