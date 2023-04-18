@@ -1,2 +1,3 @@
 # BTC_to_USD_Telegram_bot
-Text
+Telegram bot.
+Bitcoin to US Dollar Index.
