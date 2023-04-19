@@ -54,8 +54,8 @@ def start_message(message):
     timezone_map = open('pictures/timezonesmap.jpg', 'rb')
 
     bot.send_photo(message.chat.id, timezone_map)
-    bot.send_message(message.chat.id, f'<b>Hi, {message.from_user.first_name}!</b>\n'
-                                      f'Choose your Time Zone.', reply_markup=markup, parse_mode='html')
+    bot.send_message(message.chat.id, f'<b>Hi, {message.from_user.first_name}!</b>\n', parse_mode='html')
+    bot.send_message(message.chat.id, 'Choose your Time Zone.', reply_markup=markup)
 
 
 @bot.message_handler()
