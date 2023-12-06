@@ -101,7 +101,7 @@ def get_bitcoin_price(message):
         bot.send_message(message.chat.id, f'{time_output} (UTC{utc})\n'
                                           f'<b>${price_output}</b>', parse_mode='html')
 
-    # Random GIF
+    # Random GIF.
     elif message.text.lower() == 'invest in bitcoin now?':
         request_randomgif = requests.get('https://yesno.wtf/api')
         bot.send_animation(message.chat.id, request_randomgif.json()['image'])
